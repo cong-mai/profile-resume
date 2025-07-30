@@ -157,8 +157,7 @@ body {
 }
 .about-section h3 {
   color: #3a86ff;
-  text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.1rem;
 }
 .about-grid {
   display: flex;
@@ -205,8 +204,7 @@ body {
 }
 .work-section h3 {
   color: #3a86ff;
-  text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.1rem;
 }
 .work-grid {
   display: flex;
@@ -249,8 +247,13 @@ body {
 }
 .portfolio-section h3 {
   color: #3a86ff;
-  text-align: center;
-  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  margin-bottom: 1.1rem;
+}
+h3 {
+  font-size: 1.1rem;
+  color: #3a86ff;
+  margin-bottom: 1rem;
 }
 .portfolio-grid {
   display: flex;
@@ -266,7 +269,6 @@ body {
   min-width: 220px;
   max-width: 300px;
   flex: 1 1 220px;
-  text-align: center;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 .portfolio-card:hover {
