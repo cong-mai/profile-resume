@@ -255,6 +255,9 @@ body {
   color: #3a86ff;
   margin-bottom: 1rem;
 }
+h3{
+  color: #3a86ff !important;
+}
 .portfolio-grid {
   display: flex;
   flex-wrap: wrap;
