@@ -290,6 +290,35 @@ h3{
   color: #3a86ff;
   margin-bottom: 0.5rem;
 }
+.portfolio-card--badges {
+  display: flex;
+  flex-direction: column;
+}
+.tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.tech-badges span {
+  background: #e0e7ff;
+  color: #3a86ff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+}
+.portfolio-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: #3a86ff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.portfolio-link:hover {
+  text-decoration: underline;
+}
 
 .footer {
   background: #3a86ff;
